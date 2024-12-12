@@ -1,0 +1,12 @@
+name: f1Interface
+version: '1.0'
+main: daf1rs.f1Interface.Plugin
+api-version: '1.21'
+authors: [ daf1rs ]
+softdepend: [ PlaceholderAPI ]
+description: Plugin for customizing the interface on the Minecraft server.
+commands:
+  f1interface:
+    description: Управление интерфейсами
+    usage: /f1interface <element> <action> <name>
+    aliases: [ f1i ]
